@@ -14,12 +14,12 @@ class OrangeTree
 		@orangeCount=0
 		puts @orangeCount
 		end
-		height
+		@height
 	end
 	def oneYearPass
 		if @age<=25
 			@age=@age+1
-			height
+			@height = height
 			fruit
 		else
 			@age=-1
@@ -44,36 +44,21 @@ class OrangeTree
 		end
 	end
 end
+
+
+
+
 ot=OrangeTree.new
-#ot.height
-##ot.fruit
-#ot.pickAnOrange
+ot.height
+ot.fruit
+ot.pickAnOrange
+
 ot.oneYearPass
 ot.oneYearPass
 ot.oneYearPass
 ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
-ot.oneYearPass
+puts ot.height
+puts ot.fruit
+
 ot.pickAnOrange
 ot.fruit
