@@ -9,7 +9,7 @@ class OrangeTree
 			@height =@height +1
 		end
 		if (@age <0 or @age>25)
-		height=-1
+		@height=-1
 		puts 'Tree was die'
 		@orangeCount=0
 		puts @orangeCount
